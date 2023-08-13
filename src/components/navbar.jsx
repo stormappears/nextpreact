@@ -19,7 +19,9 @@ function Navbar (){
         <a href='/home' id='hlt'>Health</a>
         <a><AiOutlineSearch color='rgb(211, 207, 207)' size='18'/></a> 
         </div>
-        <div className='bar1'> </div>
+        <div className='bar1'>
+            Welcome To The Stage : A Common Place For Your All Gossip
+        </div>
         <div className='downnavbar' id="downnavbar">
             <div className='EntertainmentMenu' id='EntertainmentMenu'>
             <div className='navhoverdiv1 textalignleft'>

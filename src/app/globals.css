@@ -28,8 +28,9 @@ top: 0; */
 width: auto;
 padding-top: 1px;
 height: 44px;
-background: #232323;
-box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border: 1px solid #000;
+background: #1a1a1a;
+box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.104) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 display: flex;
 align-items: center;
 justify-content: center;
@@ -48,9 +49,14 @@ justify-content: center;
 }
 
 .bar1{
-width: auto;
-height: 40px;
+width: 100vw;
+height: 30px;
 background: #000000;
+position: absolute;
+z-index: 11111;
+display: flex;
+align-self: center;
+
 }
 
 .downnavbar{
@@ -68,6 +74,7 @@ z-index:1000;
 }
 
 .EntertainmentMenu{
+margin-top: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -204,7 +211,6 @@ a:hover {
 }
 
 .wrapper{
-background-color: greenyellow;
 position: absolute;
 width: 100vw;
 height: 100vh;
@@ -240,4 +246,16 @@ margin-bottom:5px;
 .navhoverdiv2 ul li{
 display: flex;
 justify-content: start;
+}
+
+.bar1{
+  color: rgba(240, 255, 255, 0.657);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: SFProText;
+  font-size: 10px;
+  font-weight: 200px;
+  border-bottom: 1px solid #292929;
+background: #000;   
 }

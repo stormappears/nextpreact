@@ -1,5 +1,6 @@
 
 
+
 const onBtnEntertainment =()=>{
 
 
@@ -38,8 +39,7 @@ const entbtnIn =  document.getElementById("entbtn").onmouseover = function() {
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(4px)"
-        wrapper.style.backgroundColor = "red"
+        wrapper.style.filter = "blur(3px)"
 
 
         //changed data
@@ -74,8 +74,7 @@ const entbtnIn =  document.getElementById("entbtn").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(4px)"
-        wrapper.style.backgroundColor = "red"
+        wrapper.style.filter = "blur(3px)"
     }
 };
 
@@ -116,8 +115,7 @@ const techbtnIn =  document.getElementById("techbtn").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(4px)"
-        wrapper.style.backgroundColor = "red"
+        wrapper.style.filter = "blur(3px)"
         document.getElementById("hig4").innerText = "ChangedText"
     }
 };
@@ -140,8 +138,7 @@ const busbtnIn =  document.getElementById("bus").onmouseover = function() {
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(4px)"
-        wrapper.style.backgroundColor = "red"
+        wrapper.style.filter = "blur(3px)"
 
 
         //changed data
@@ -161,7 +158,6 @@ const busbtnIn =  document.getElementById("bus").onmouseover = function() {
         document.getElementById("quk1").innerText = "Buisness-QukData1 "
         document.getElementById("quk2").innerText = "Buisness-QukData2 "
         document.getElementById("quk3").innerText = "Buisness-QukData3 "
-        document.getElementById("quk4").innerText = "Buisness-QukData4 "
         //data change done
         
         
@@ -169,8 +165,7 @@ const busbtnIn =  document.getElementById("bus").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(4px)"
-        wrapper.style.backgroundColor = "red"
+        wrapper.style.filter = "blur(3px)"
     }
 };
 
