@@ -1,0 +1,64 @@
+{
+
+    "btn" : "Home",
+    "highlights" : [{
+        "btn1":"Data1",
+        "btn2":"Data2",
+        "btn3":"Data3",
+        "btn4":"Data4",
+        "btn5":"Data5"
+    }],
+    
+    "categories":[{
+        "btn1": "Data1",
+        "btn2": "Data2",
+        "btn3": "Data3",
+        "btn4": "Data4"
+    }],
+    "quicklink":[{
+        "btn1": "Data1",
+        "btn2": "Data2",
+        "btn3": "Data3"
+    }],
+
+    "btn" : "Entertainment",
+    "highlights" : [{
+        "btn1":"Data1",
+        "btn2":"Data2",
+        "btn3":"Data3",
+        "btn4":"Data4",
+        "btn5":"Data5"
+    }],
+    "categories":[{
+        "btn1": "Data1",
+        "btn2": "Data2",
+        "btn3": "Data3",
+        "btn4": "Data4"
+    }],
+    "quicklink":[{
+        "btn1": "Data1",
+        "btn2": "Data2",
+        "btn3": "Data3"
+    }] ,
+    
+    "btn" : "Technology",
+    "highlights" : [{
+        "btn1":"Data1",
+        "btn2":"Data2",
+        "btn3":"Data3",
+        "btn4":"Data4",
+        "btn5":"Data5"
+    }],
+    "categories":[{
+        "btn1": "Data1",
+        "btn2": "Data2",
+        "btn3": "Data3",
+        "btn4": "Data4"
+    }],
+    "quicklink":[{
+        "btn1": "Data1",
+        "btn2": "Data2",
+        "btn3": "Data3"
+    }]
+
+}

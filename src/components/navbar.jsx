@@ -3,15 +3,16 @@ import { AiOutlineSearch } from 'react-icons/ai';
 
 
 
+
 function Navbar (){
     return(
         <>
         {/* <Script src="/bundle.js" strategy="worker" /> */}
         <div className='navbar'>
-        <a href='/' >Home</a>
+        <a href='/' id ='home'>Home</a>
         <a href='/home' id='entbtn'>Entertainment</a>
         <a href='/tech' id='techbtn'>Technology</a>
-        <a href='/home' id='bus'>Buisness</a>
+        <a href='/home'  id='bus'>Buisness</a>
         <a href='/home' id='lif'>Lifestyle</a>
         <a href='/home' id='som'>social Media</a>
         <a href='/home' id='sci'>Science</a>
@@ -20,7 +21,7 @@ function Navbar (){
         <a><AiOutlineSearch color='rgb(211, 207, 207)' size='18'/></a> 
         </div>
         <div className='bar1'>
-            Welcome To The Stage : A Common Place For Your All Gossip
+            Welcome To The Stage : Your Daily Hustle
         </div>
         <div className='downnavbar' id="downnavbar">
             <div className='EntertainmentMenu' id='EntertainmentMenu'>
