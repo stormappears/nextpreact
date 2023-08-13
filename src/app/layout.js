@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { AiOutlineSearch } from 'react-icons/ai';
+import Navbar from '@/components/navbar';
+import Script from 'next/script'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -10,23 +11,25 @@ export const metadata = {
   description: 'News about everything',
 }
 
+
+
+
 export default function RootLayout({ children }) {
-  return (
+
+  function opentech(){
+    console.log("clicked")
+  }
+  return (<>
+    
     <html lang="en">
+    <Script src="/bundle.js" />
       <body className={inter.className}>
-        <div className='navbar'>
-          <a href='/'>Home</a>
-          <a href='/home'>Entertainment</a>
-          <a href='/tech'>Technology</a>
-          <a href='/home'>Buisness</a>
-          <a href='/home'>Lifestyle</a>
-          <a href='/home'>social Media</a>
-          <a href='/home'>Science</a>
-          <a href='/home'>Politics</a>
-          <a href='/home'>Health</a>
-          <a><AiOutlineSearch color='rgb(211, 207, 207)' size='18'/></a> 
+        <Navbar></Navbar>
+        <div className='wrapper' id='wrapper'>
+        {children}
         </div>
-        {children}</body>
+        </body>
     </html>
+    </>
   )
 }

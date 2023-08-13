@@ -4,6 +4,16 @@
   src: url(./../fonts/sf-pro-text_regular.woff2);
 }
 
+@font-face {
+  font-family: SFProTextDisplybold;
+  src: url(./../fonts/sf-pro-display_bold.woff2);
+}
+
+@font-face {
+  font-family: SFProTextDisply;
+  src: url(./../fonts/sf-pro-display_regular.woff2);
+}
+
 
 
 
@@ -35,4 +45,199 @@ justify-content: center;
   line-height: 12px;
   font-weight: 400px;
 
+}
+
+.bar1{
+width: auto;
+height: 40px;
+background: #000000;
+}
+
+.downnavbar{
+width: 100vw;
+/* height: 300px; */
+height: 0;
+background: #000000;
+transition: height 1s ease;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+overflow: hidden;
+position: absolute;
+z-index:1000;
+}
+
+.EntertainmentMenu{
+display: flex;
+justify-content: center;
+align-items: center;
+max-height: fit-content;
+
+}
+
+.navhoverdiv1 {
+  display: flex;
+  height: 18em;
+  width: 20em;
+  padding-left: 30px;
+
+}
+
+.navhoverdiv1 ul {
+  padding: 0;
+}
+
+.navhoverdiv1 ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navhoverdiv2 {
+  display: flex;
+  height: 18em;
+  width: 20em;
+  padding-left: 30px;
+
+}
+
+.navhoverdiv2 ul {
+padding: 0;
+}
+
+
+.navhoverdiv2 ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navhoverdiv3 {
+  display: flex;
+  height: 18em;
+  width: 20em;
+  padding-left: 30px;
+
+}
+
+.navhoverdiv3 ul {
+  padding: 0;
+}
+
+.navhoverdiv3 ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forofor{
+background-color: #000;
+display: flex;
+align-items: center;
+justify-content: center;
+width: auto;
+height: 100vh;
+}
+/* Font styles navbar */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+.smallmenu{
+  font-family:  SFProText,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400px;
+  color: #86868b;
+  text-align: start;
+  direction: ltr;
+  text-decoration: none;
+}
+
+.smallmenuhighlight{
+  font-family:  SFProText,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400px;
+  color: #ffffffa7;
+  text-align: start;
+  direction: ltr;
+}
+.bigBoldmenu{
+  font-family:  SFProTextDisply,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600px;
+  color: #b8b7b7;
+  text-align: start;
+  direction: ltr;
+}
+
+
+.boldcategory{
+  font-family: "SFProText", "SF Pro Icons", "Helvetica Neue";   
+  text-decoration: none;
+  font-weight: 600px;
+  font-style: 12px;
+  line-height: 16px;
+  color: aliceblue;
+  font-style: normal;
+  text-decoration-style: none;
+}
+
+.wrapper{
+background-color: greenyellow;
+position: absolute;
+width: 100vw;
+height: 100vh;
+z-index: 999;
+}
+
+
+
+/*My cutom classes*/
+.margindown20{
+margin-bottom: 20px;
+}
+
+.margintopbot5px{
+margin-top: 10px;
+margin-bottom:10px;
+}
+
+.margintopbot2px{
+margin-top: 5px;
+margin-bottom:5px;
+}
+
+.textalignleft{
+  text-align: start;
+  display: inline;
+  list-style-type: none; 
+
+}
+
+/* Align text*/
+
+.navhoverdiv2 ul li{
+display: flex;
+justify-content: start;
 }
