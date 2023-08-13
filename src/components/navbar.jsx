@@ -29,8 +29,6 @@ function Navbar (){
                     <li id="" className='textalignleft'><a id="hig2" href='/' className='bigBoldmenu margintopbot5px' > Bollywood </a></li>
                     <li id="" className='textalignleft'><a id="hig3" href='/' className='bigBoldmenu margintopbot5px' > Social Media </a></li>
                     <li id="" className='textalignleft'><a id="hig4" href='/' className='bigBoldmenu margintopbot5px' > Updates </a></li>
-       
-                
                 </ul>
             </div>
             <div className='navhoverdiv2'>

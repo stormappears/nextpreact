@@ -1,3 +1,5 @@
+
+
 const onBtnEntertainment =()=>{
 
 
@@ -46,7 +48,14 @@ const entbtnIn =  document.getElementById("entbtn").onmouseover = function() {
         document.getElementById("hig2").innerText = "EntData2"
         document.getElementById("hig3").innerText = "EntData3"
         document.getElementById("hig4").innerText = "EntData4 "
+        //hlurl
+        document.getElementById("hig1").href = '/home'
+        document.getElementById("hig2").href = '/home'
+        document.getElementById("hig3").href = '/home'
+        document.getElementById("hig4").href = '/home'
         
+
+
         // categories
         document.getElementById("cat1").innerText = "EntCatData1 "
         document.getElementById("cat2").innerText = "EntCatData2 "
@@ -57,7 +66,7 @@ const entbtnIn =  document.getElementById("entbtn").onmouseover = function() {
         document.getElementById("quk1").innerText = "EntQukData1 "
         document.getElementById("quk2").innerText = "EntQukData2 "
         document.getElementById("quk3").innerText = "EntQukData3 "
-        document.getElementById("quk4").innerText = "EntQukData4 "
+
         //data change done
         
         
@@ -102,7 +111,6 @@ const techbtnIn =  document.getElementById("techbtn").onmouseover = function() {
         document.getElementById("quk1").innerText = "TechQukData1 "
         document.getElementById("quk2").innerText = "TechQukData2 "
         document.getElementById("quk3").innerText = "TechQukData3 "
-        document.getElementById("quk4").innerText = "TechQukData4 "
         //data change dTech
     }
     else{

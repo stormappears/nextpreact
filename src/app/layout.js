@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
     
     <html lang="en">
     <Script src="/bundle.js" />
+    <Script src='hotjar.js'/>
       <body className={inter.className}>
         <Navbar></Navbar>
         <div className='wrapper' id='wrapper'>
