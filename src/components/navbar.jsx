@@ -1,7 +1,21 @@
 'use client';
 import { AiOutlineSearch } from 'react-icons/ai';
 
+const search = () =>{
+const navList = document.getElementById("navcontent")
+const searchInput = document.getElementById("searchInput")
 
+if (navList.style.visibility="visible"){
+    navList.style.visibility="hidden"
+    navList.style.backgroundColor="red"
+    searchInput.style.visibility="visible"
+
+}else{
+    searchInput.style.visibility="hidden"
+    navList.style.visibility="visible"
+}
+
+}
 
 
 function Navbar (){
@@ -9,6 +23,7 @@ function Navbar (){
         <>
         {/* <Script src="/bundle.js" strategy="worker" /> */}
         <div className='navbar'>
+        <div id='navcontent'>
         <a href='/' id ='home'>Home</a>
         <a href='/home' id='entbtn'>Entertainment</a>
         <a href='/tech' id='techbtn'>Technology</a>
@@ -18,15 +33,17 @@ function Navbar (){
         <a href='/home' id='sci'>Science</a>
         <a href='/home' id='pol'>Politics</a>
         <a href='/home' id='hlt'>Health</a>
-        <a><AiOutlineSearch color='rgb(211, 207, 207)' size='18'/></a> 
+        <a >< AiOutlineSearch  onClick={search} color='rgb(211, 207, 207)' size='18'/></a> 
+        </div>
         </div>
         <div className='bar1'>
+        <input type="text" id="searchInput" placeholder="Search..." class="form-control"></input>
             Welcome To The Stage : Your Daily Hustle
         </div>
         <div className='downnavbar' id="downnavbar">
             <div className='EntertainmentMenu' id='EntertainmentMenu'>
             <div className='navhoverdiv1 textalignleft'>
-                <ul className='textalignleft'>
+                <ul  id="navllistul" className='textalignleft'>
                     <li id="toptiitle_navslider" className='smallmenu margindown20 textalignleft'> Entertainment Highlights</li>
                     <li id="" className='textalignleft'><a id="hig1" href='/' className='bigBoldmenu margintopbot5px' > Hollywood </a></li>
                     <li id="" className='textalignleft'><a id="hig2" href='/' className='bigBoldmenu margintopbot5px' > Bollywood </a></li>

@@ -1,10 +1,12 @@
 import styles from './page.module.css'
-
+import Section1 from '../components/section1'
+import Section2 from '../components/section2'
 
 export default function Home() {
   return (
 <>
-<div> Hello </div>
+< Section1  />
+< Section2  />
 
 </>
   )

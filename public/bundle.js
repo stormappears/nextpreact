@@ -1,15 +1,23 @@
+
+
+
+
+const wrapper =  document.getElementById("wrapper")
+
 const gbdownnavbar = document.getElementById("downnavbar")
 // maindwnbarhver
 const downnavbar =  document.getElementById("downnavbar").onmouseover = function (){
     const downnavbar = document.getElementById("downnavbar")
     downnavbar.style.height = "300px"
-
 }
+
 const EntertainmentMenuIn =  document.getElementById("EntertainmentMenu").onmouseover = function (){
     gbdownnavbar.style.height = "300px"
+    wrapper.style.filter = "blur(2px)"
 }
 const EntertainmentMenuLeave =  document.getElementById("EntertainmentMenu").onmouseout = function (){
     gbdownnavbar.style.height = "0px";
+    wrapper.style.filter = "blur(0px)"
 }
 
 
@@ -25,7 +33,7 @@ const entbtnIn =  document.getElementById("entbtn").onmouseover = function() {
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
 
 
         //changed data
@@ -64,7 +72,7 @@ const entbtnIn =  document.getElementById("entbtn").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
     }
 };
 
@@ -72,6 +80,7 @@ const entbtnIn =  document.getElementById("entbtn").onmouseover = function() {
 const entbtnLeave =  document.getElementById("entbtn").onmouseout = function() {
         const downnavbarid =  document.getElementById("downnavbar")
         downnavbarid.style.height = "0px"
+        wrapper.style.filter = "blur(0px)"
 
 };
 
@@ -120,7 +129,7 @@ const techbtnIn =  document.getElementById("techbtn").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
         document.getElementById("hig4").innerText = "ChangedText"
     }
 };
@@ -128,6 +137,7 @@ const techbtnIn =  document.getElementById("techbtn").onmouseover = function() {
 const techbtnLeave =  document.getElementById("techbtn").onmouseout = function() {
     const downnavbarid =  document.getElementById("downnavbar")
     downnavbarid.style.height = "0px"
+    wrapper.style.filter = "blur(0px)"
 
 };
 // tech btn End
@@ -144,7 +154,7 @@ const busbtnIn =  document.getElementById("bus").onmouseover = function() {
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
 
 
         //changed data
@@ -185,7 +195,7 @@ const busbtnIn =  document.getElementById("bus").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
     }
 };
 
@@ -193,6 +203,7 @@ const busbtnIn =  document.getElementById("bus").onmouseover = function() {
 const busbtnLeave =  document.getElementById("bus").onmouseout = function() {
         const downnavbarid =  document.getElementById("downnavbar")
         downnavbarid.style.height = "0px"
+        wrapper.style.filter = "blur(0px)"
 }
 // buisness btn End
 
@@ -211,7 +222,7 @@ const lifestyleIn =  document.getElementById("lif").onmouseover = function() {
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
 
 
         //changed data
@@ -250,7 +261,7 @@ const lifestyleIn =  document.getElementById("lif").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
     }
 };
 
@@ -258,6 +269,7 @@ const lifestyleIn =  document.getElementById("lif").onmouseover = function() {
 const lifestyleLeave =  document.getElementById("lif").onmouseout = function() {
         const downnavbarid =  document.getElementById("downnavbar")
         downnavbarid.style.height = "0px";
+        wrapper.style.filter = "blur(0px)"
 }
 // lifestyle btn End
 
@@ -275,7 +287,7 @@ const socialMediaIn =  document.getElementById("som").onmouseover = function() {
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
 
 
         //changed data
@@ -314,7 +326,7 @@ const socialMediaIn =  document.getElementById("som").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
     }
 };
 
@@ -322,6 +334,7 @@ const socialMediaIn =  document.getElementById("som").onmouseover = function() {
 const socialMediaOut =  document.getElementById("som").onmouseout = function() {
         const downnavbarid =  document.getElementById("downnavbar")
         downnavbarid.style.height = "0px";
+        wrapper.style.filter = "blur(0px)"
 }
 // Social btn End
 
@@ -341,7 +354,7 @@ const ScienceMediaIn =  document.getElementById("sci").onmouseover = function() 
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
 
 
         //changed data
@@ -380,7 +393,7 @@ const ScienceMediaIn =  document.getElementById("sci").onmouseover = function() 
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
     }
 };
 
@@ -388,6 +401,7 @@ const ScienceMediaIn =  document.getElementById("sci").onmouseover = function() 
 const ScienceMediaOut =  document.getElementById("sci").onmouseout = function() {
         const downnavbarid =  document.getElementById("downnavbar")
         downnavbarid.style.height = "0px";
+        wrapper.style.filter = "blur(0px)"
 }
 // Science btn End
 
@@ -404,7 +418,7 @@ const PoliticsMediaIn =  document.getElementById("pol").onmouseover = function()
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
 
 
         //changed data
@@ -443,7 +457,7 @@ const PoliticsMediaIn =  document.getElementById("pol").onmouseover = function()
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
     }
 };
 
@@ -451,6 +465,7 @@ const PoliticsMediaIn =  document.getElementById("pol").onmouseover = function()
 const PoliticsMediaOut =  document.getElementById("pol").onmouseout = function() {
         const downnavbarid =  document.getElementById("downnavbar")
         downnavbarid.style.height = "0px";
+        wrapper.style.filter = "blur(0px)"
 }
 // politics btn End
 
@@ -465,7 +480,7 @@ const HealthMediaIn =  document.getElementById("hlt").onmouseover = function() {
         toptiitle_navslider.innerText ="Entertainmaint Updates"
         downnavbarid.style.height = "300px";
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
 
 
         //changed data
@@ -504,7 +519,7 @@ const HealthMediaIn =  document.getElementById("hlt").onmouseover = function() {
     else{
         downnavbarid.style.height = "300px"
         downnavbarid.style.top = "60px"
-        wrapper.style.filter = "blur(3px)"
+        wrapper.style.filter = "blur(2px)"
     }
 };
 
@@ -512,9 +527,9 @@ const HealthMediaIn =  document.getElementById("hlt").onmouseover = function() {
 const HealthMediaOut =  document.getElementById("hlt").onmouseout = function() {
         const downnavbarid =  document.getElementById("downnavbar")
         downnavbarid.style.height = "0px";
+        wrapper.style.filter = "blur(0px)"
 }
 // Health btn End
-
 
 
 
